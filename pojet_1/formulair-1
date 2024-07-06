@@ -14,3 +14,12 @@
 
     </body>
 </html>
+
+.separation{
+    background-color: brown;
+    position: absolute;
+    border: 15px solid green;
+    padding: 100px;
+    margin: 20px;
+    align-items: center;
+}

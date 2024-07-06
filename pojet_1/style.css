@@ -5,6 +5,9 @@
     text-decoration: none;
  }
 
+ .header{
+    background-color: bisque;
+ }
 
 
  .image-box{
@@ -21,29 +24,58 @@
     padding-right: 32px;
     padding-top: 38px;
     padding-bottom: 38px;
-    background: pink;
+
    }
 
  .lien{
     display: flex;
     gap: 20px;
-    font-size: 200%;
+    font-size: 120%;
 
 
        }
  .text{
     margin-bottom: 50px;
     text-decoration: underline;
-    font-size: 200%;
+    font-size: 120%;
 
        }
-.formulair{
-    /* background: blue; */
-    border-radius: 10px;
-    padding:30px
+
+       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#formulaire{
+    position:absolute;
+    border: 0 px;
+    margin: 10px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-weight: bold;
 }
+
+
 .separation{
-    width: 100px;
-    height: 1px;
-    background-color: brown;
+    background-color: aqua;
+    border-radius: 5%;
+}
+form .information{
+       display: flex;
+       flex-wrap: wrap;
+       margin-bottom: 30px;
+}
+.infos{
+    margin-top: 5px;
+    position: relative;
+    padding: 10px 5px 10px 30px ;
+}
+#icorne{
+    position: absolute;
+    background-color: white;
+    left: 0;
+}
+.info{
+    display:contents
 }
