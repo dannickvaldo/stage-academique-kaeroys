@@ -62,7 +62,7 @@
     font-weight: bold;
     background-image: url(dannick2.jpeg);
 } 
-
+]
 
 .separation{
     background-color: aqua;
@@ -94,17 +94,58 @@ form .information{
     border-radius: 150px;
 
 }
+.photo-1{
+    width: 500px;
+    border-radius: 30%;
+    padding: 500px; 
+}
 .ligne{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px;
 }
+.centre-1{
+    background-image: url(apple-1.jpeg);
+    border-radius: 10%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .titre{
     font-size: 70px;
     text-decoration: underline;
 }
 
+.centre{
+    display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.texte{
+    font-size: 90px;
+    text-decoration: underline;
+}
+.text-2{
+    background-color: aliceblue;
+}
+.bleu{
+    color: rgb(7, 7, 134);
+}
+.orange{
+    color:rgb(230, 150, 3);
+}
+h4{
+    color: rgb(204, 134, 5)
+}
+.blanc{
+    color:white;
+}
+.blanc-1{
+    padding: 400px;
+}
 /* --------------------------------------------------------------connection.html............................................................................ */
 
 .corps{
